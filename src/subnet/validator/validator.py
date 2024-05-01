@@ -68,7 +68,7 @@ def set_weights(
 
     # process the scores into weights of type dict[int, int] 
     # Iterate over the items in the score_dict
-    for uid, score in adjsuted_to_sigmoid.items():
+    for uid, score in score_dict.items():
         # Calculate the normalized weight as an integer
         weight = int(score * 1000 / scores)
 
