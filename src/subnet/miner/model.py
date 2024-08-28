@@ -41,7 +41,7 @@ if __name__ == "__main__":
     refill_rate = 1 / 400
     # Implementing custom limit
     bucket = TokenBucketLimiter(2, refill_rate)
-    server = ModuleServer(miner, key, ip_limiter=bucket, subnets_whitelist=[3])
+    server = ModuleServer(miner, key, limiter=bucket, subnets_whitelist=[3])
     app = server.get_fastapi_app()
 
     # Only allow local connections
