@@ -37,6 +37,16 @@ To run the validator, just call the file in which you are executing `validator.v
 python3 -m commune-subnet-template.subnet.cli <name-of-your-com-key>
 ```
 
+
+## Running Miner on Testnet
+
+From the root of your project, you can just call **comx module serve**. For example:
+
+```sh
+comx --testnet module serve commune-subnet-template.subnet.miner.model.Miner <name-of-your-com-key> [--subnets-whitelist <your-subnet-netuid>] \
+[--ip <text>] [--port <number>]
+```
+
 ## Further reading
 
 For full documentation of the Commune AI ecosystem, please visit the [Official Commune Page](https://communeai.org/), and it's developer documentation. There you can learn about all subnet details, deployment, and more!
