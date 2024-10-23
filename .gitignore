@@ -1,9 +1,6 @@
 /.direnv
-/safe
-/stuff
-/data
-/volumes
-/result
+
+/.vscode
 
 /env/**/*.env
 
