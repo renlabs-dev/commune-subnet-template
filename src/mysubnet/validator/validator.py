@@ -25,10 +25,10 @@ import re
 import time
 from functools import partial
 
-from communex.client import CommuneClient  # type: ignore
-from communex.module.client import ModuleClient  # type: ignore
-from communex.module.module import Module  # type: ignore
-from communex.types import Ss58Address  # type: ignore
+from communex.client import CommuneClient
+from communex.module.client import ModuleClient
+from communex.module.module import Module 
+from communex.types import Ss58Address
 from substrateinterface import Keypair  # type: ignore
 
 from ._config import ValidatorSettings

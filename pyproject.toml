@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 
-communex = "^0.1.34.5"
+communex = "^0.1.34.6"
 uvicorn = "^0.29.0"
 keylimiter = "^0.1.5"
 pydantic-settings = "^2.6.0"
